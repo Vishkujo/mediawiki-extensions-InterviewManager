@@ -1,0 +1,52 @@
+{
+    "name": "InterviewManager",
+    "version": "1.0.1",
+    "author": [
+        "Vish"
+    ],
+    "descriptionmsg": "updateinterviews-desc",
+    "license-name": "MIT",
+    "type": "other",
+    "AutoloadClasses": {
+        "UpdateInterviews": "includes/UpdateInterviews.php",
+        "InterviewManagerHooks": "includes/InterviewManagerHooks.php"
+    },
+    "SpecialPages": {
+        "UpdateInterviews": "UpdateInterviews"
+    },
+    "Hooks": {
+        "ParserFirstCallInit": "InterviewManagerHooks::onParserFirstCallInit"
+    },
+    "ResourceModules": {
+        "ext.interviewManager": {
+            "scripts": "resources/interview-manager.js",
+            "styles": "resources/interview-manager.css",
+            "position": "top",
+            "dependencies": [
+                "mediawiki.api"
+            ],
+            "localBasePath": "",
+            "remoteExtPath": "InterviewManager",
+            "targets": ["mobile", "desktop"]
+        }
+    },
+    "GroupPermissions": {
+        "sysop": {
+            "updateinterviews": true
+        }
+    },
+    "AvailableRights": [
+        "updateinterviews"
+    ],
+    "config": {
+        "UpdateInterviewsPath": {
+            "value": "add path here"
+        }
+    },
+    "MessagesDirs": {
+        "InterviewManager": [
+            "i18n"
+        ]
+    },
+    "manifest_version": 2
+}

@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Vish"
+        ]
+    },
+    "updateinterviews-desc": "A special page for updating interviews.",
+    "updateinterviews": "Update Interviews",
+    "action-updateinterviews": "update interviews"
+}

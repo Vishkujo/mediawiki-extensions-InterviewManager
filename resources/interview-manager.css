@@ -1,0 +1,403 @@
+/* Date Filter */
+#date-filter-container {
+    width: 12em;
+}
+
+#date-filter-container .choices__inner {
+    background: #3a74b0 !important;
+    color: white;
+    width: 90% !important;
+    padding: 7.5px 7.5px 1px
+}
+
+#date-filter-container .choices__list--single {
+    display: inline-block;
+    padding: 6px 16px 8px 18px;
+    width: 70%;
+    background: #24374a;
+    border-radius: 5px;
+}
+
+#date-filter-container .choices__list--dropdown,
+#date-filter-container .choices__list[aria-expanded] {
+    background-color: #28517c;
+    color: white;
+}
+
+#date-filter-container .choices__list--dropdown .choices__item--selectable.is-highlighted,
+#date-filter-container .choices__list[aria-expanded] .choices__item--selectable.is-highlighted {
+    background-color: #0f1b25;
+}
+
+/* Interviewee Filter */
+#interviewee-filter-container {
+    width: 12em;
+}
+
+#interviewee-filter-container .choices__inner {
+    background: #b03a7f !important;
+    color: white;
+    width: 90% !important;
+    padding: 7.5px 7.5px 1px
+}
+
+#interviewee-filter-container .choices__list--single {
+    display: inline-block;
+    padding: 6px 16px 8px 18px;
+    width: 70%;
+    background: #861d5e;
+    border-radius: 5px;
+}
+
+#interviewee-filter-container .choices__list--dropdown,
+#interviewee-filter-container .choices__list[aria-expanded] {
+    background-color: #890c59;
+    color: white;
+}
+
+#interviewee-filter-container .choices__list--dropdown .choices__item--selectable.is-highlighted,
+#interviewee-filter-container .choices__list[aria-expanded] .choices__item--selectable.is-highlighted {
+    background-color: #451131;
+}
+
+/* Type Filter */
+#type-filter-container {
+    width: 12em;
+}
+
+#type-filter-container .choices__inner {
+    background: #ed9be1 !important;
+    color: white;
+    width: 90% !important;
+    padding: 7.5px 7.5px 1px
+}
+
+#type-filter-container .choices__list--single {
+    display: inline-block;
+    padding: 6px 16px 8px 18px;
+    width: 70%;
+    background: #9c5591;
+    border-radius: 5px;
+}
+
+#type-filter-container .choices__list--dropdown,
+#type-filter-container .choices__list[aria-expanded] {
+    background-color: #d472c5;
+    color: white;
+}
+
+#type-filter-container .choices__list--dropdown .choices__item--selectable.is-highlighted,
+#type-filter-container .choices__list[aria-expanded] .choices__item--selectable.is-highlighted {
+    background-color: #612858;
+}
+
+/* Status Filter */
+#status-filter-container {
+    width: 12em;
+}
+
+#status-filter-container .choices__inner {
+    background: #53a143 !important;
+    color: white;
+    width: 90% !important;
+    padding: 7.5px 7.5px 1px
+}
+
+#status-filter-container .choices__list--single {
+    display: inline-block;
+    padding: 6px 16px 8px 18px;
+    width: 70%;
+    background: #184c2e;
+    border-radius: 5px;
+}
+
+#status-filter-container .choices__list--dropdown,
+#status-filter-container .choices__list[aria-expanded] {
+    background-color: #145e2f;
+    color: white;
+}
+
+#status-filter-container .choices__list--dropdown .choices__item--selectable.is-highlighted,
+#status-filter-container .choices__list[aria-expanded] .choices__item--selectable.is-highlighted {
+    background-color: #0f250f;
+}
+
+/* Publication Filter */
+#publication-filter-container {
+    width: 14em;
+}
+
+#publication-filter-container .choices__inner {
+    background: #797ECA !important;
+    color: white;
+    width: 90% !important;
+    padding: 7.5px 7.5px 1px
+}
+
+#publication-filter-container .choices__list--single {
+    display: inline-block;
+    padding: 6px 16px 8px 18px;
+    width: 75%;
+    background: #4a4e8e;
+    border-radius: 5px;
+}
+
+#publication-filter-container .choices__list--dropdown,
+#publication-filter-container .choices__list[aria-expanded] {
+    background-color: #363a78;
+    color: white;
+}
+
+#publication-filter-container .choices__list--dropdown .choices__item--selectable.is-highlighted,
+#publication-filter-container .choices__list[aria-expanded] .choices__item--selectable.is-highlighted {
+    background-color: #191b38;
+}
+
+/* Tag Filter */
+#tag-filter-container {
+    width: 54em;
+    margin-left: -0.5em;
+}
+
+#tag-filter-container .choices__inner {
+    background: #C2A06B !important;
+    color: white;
+    width: 97.7% !important;
+    padding: 7.5px 7.5px 1px
+}
+
+#tag-filter-container .choices__list--dropdown,
+#tag-filter-container .choices__list[aria-expanded] {
+    background-color: #2e2e2e;
+    color: white;
+}
+
+#tag-filter-container .choices__list--dropdown .choices__item--selectable.is-highlighted,
+#tag-filter-container .choices__list[aria-expanded] .choices__item--selectable.is-highlighted {
+    background-color: #4d3818;
+}
+
+#tag-filter-container .choices__input {
+    width: 100% !important;
+    font-family: Roboto;
+    font-size: 12px;
+    text-align: center;
+  }
+
+/* Miscellaneous */
+.filter-box {
+    display: table-cell;
+}
+
+#no-results {
+    text-align: center;
+    padding: 10px;
+    font-family: Roboto;
+}
+
+#no-results2 {
+    font-size: small;
+}
+
+#interviewCount {
+    text-align: right;
+    font-size: small;
+    font-family: Roboto;
+    padding: 4px 15px 4px 20px;
+    background-color: #191919de;
+    color: white;
+    border: 2px ridge black;
+  }
+
+  .choices__list--dropdown .choices__item, .choices__list[aria-expanded] .choices__item {
+    font-size: 12.5px !important;
+  }
+
+  .choices__list--single .choices__item {
+    font-size: 11px !important;
+  }
+
+  #interview-search-btn {
+    vertical-align: top;
+    padding: 10px;
+    margin-right: 3px;
+  }
+
+  #search-clear-btn {
+    vertical-align: top;
+    padding: 10px;
+  }
+
+  #interview-search input {
+    width: 78%;
+    padding: 8px;
+    margin-right: 3px;
+  }
+
+  #interview-search {
+    text-align: center;
+    margin: 10px;
+  }
+
+@media (min-width: 640px) {
+    .choices__list--dropdown .choices__item--selectable, .choices__list[aria-expanded] .choices__item--selectable {
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 431px) {
+    #date-filter-container, #interviewee-filter-container, #type-filter-container, #status-filter-container, #publication-filter-container, #tag-filter-container {
+        width: 100%;
+      }
+
+      #date-filter-container .choices__inner, #interviewee-filter-container .choices__inner, #type-filter-container .choices__inner, #status-filter-container .choices__inner, #publication-filter-container .choices__inner {
+        width: 95% !important;
+      }
+
+      #tag-filter-container .choices__inner {
+        width: 95% !important;
+        margin-left: 5px;
+      }
+
+      .choices__list--single {
+        width: 82% !important;
+      }
+
+
+}
+
+/* Tag Colors */
+.choices__item[data-value="Part 1"], .choices__item--selectable[data-value="Part 1"] {
+    background-color: var(--pb) !important;
+    border: 1px solid var(--pb3) !important;
+  }
+
+  .choices__item[data-value="Part 1"]:hover, .choices__item--selectable.is-highlighted[data-value="Part 1"] {
+    background-color: var(--pb3) !important;
+  }
+
+  .choices__item[data-value="Part 2"], .choices__item--selectable[data-value="Part 2"] {
+    background-color: var(--bt) !important;
+    border: 1px solid var(--bt3) !important;
+  }
+
+  .choices__item[data-value="Part 2"]:hover, .choices__item--selectable.is-highlighted[data-value="Part 2"] {
+    background-color: var(--bt3) !important;
+  }
+
+  .choices__item[data-value="Part 3"], .choices__item--selectable[data-value="Part 3"] {
+    background-color: var(--sc) !important;
+    border: 1px solid var(--sc3) !important;
+  }
+
+  .choices__item[data-value="Part 3"]:hover, .choices__item--selectable.is-highlighted[data-value="Part 3"] {
+    background-color: var(--sc3) !important;
+  }
+
+  .choices__item[data-value="Part 4"], .choices__item--selectable[data-value="Part 4"] {
+    background-color: var(--du) !important;
+    border: 1px solid var(--du3) !important;
+  }
+
+  .choices__item[data-value="Part 4"]:hover, .choices__item--selectable.is-highlighted[data-value="Part 4"] {
+    background-color: var(--du3) !important;
+  }
+
+  .choices__item[data-value="Part 5"], .choices__item--selectable[data-value="Part 5"] {
+    background-color: var(--va) !important;
+    border: 1px solid var(--va3) !important;
+  }
+
+  .choices__item[data-value="Part 5"]:hover, .choices__item--selectable.is-highlighted[data-value="Part 5"] {
+    background-color: var(--va3) !important;
+  }
+
+  .choices__item[data-value="Part 6"], .choices__item--selectable[data-value="Part 6"] {
+    background-color: var(--so) !important;
+    border: 1px solid var(--so3) !important;
+  }
+
+  .choices__item[data-value="Part 6"]:hover, .choices__item--selectable.is-highlighted[data-value="Part 6"] {
+    background-color: var(--so3) !important;
+  }
+
+  .choices__item[data-value="Part 7"], .choices__item--selectable[data-value="Part 7"] {
+    background-color: var(--sbr) !important;
+    border: 1px solid var(--sbr3) !important;
+  }
+
+  .choices__item[data-value="Part 7"]:hover, .choices__item--selectable.is-highlighted[data-value="Part 7"] {
+    background-color: var(--sbr3) !important;
+  }
+
+  .choices__item[data-value="Part 8"], .choices__item--selectable[data-value="Part 8"] {
+    background-color: var(--jjl) !important;
+    border: 1px solid var(--jjl3) !important;
+  }
+
+  .choices__item[data-value="Part 8"]:hover, .choices__item--selectable.is-highlighted[data-value="Part 8"] {
+    background-color: var(--jjl3) !important;
+  }
+
+  .choices__item[data-value="Part 9"], .choices__item--selectable[data-value="Part 9"] {
+    background-color: var(--tjl) !important;
+    border: 1px solid var(--tjl3) !important;
+  }
+
+  .choices__item[data-value="Part 9"]:hover, .choices__item--selectable.is-highlighted[data-value="Part 9"] {
+    background-color: var(--tjl3) !important;
+  }
+
+  .choices__item[data-value="Baoh the Visitor"], .choices__item--selectable[data-value="Baoh the Visitor"] {
+    background-color: var(--baoh) !important;
+    border: 1px solid var(--baoh3) !important;
+  }
+
+  .choices__item[data-value="Baoh the Visitor"]:hover, .choices__item--selectable.is-highlighted[data-value="Baoh the Visitor"] {
+    background-color: var(--baoh3) !important;
+  }
+
+  .choices__item[data-value="Cool Shock B.T."], .choices__item--selectable[data-value="Cool Shock B.T."] {
+    background-color: var(--coolshockbt) !important;
+    border: 1px solid var(--coolshockbt3) !important;
+  }
+
+  .choices__item[data-value="Cool Shock B.T."]:hover, .choices__item--selectable.is-highlighted[data-value="Cool Shock B.T."] {
+    background-color: var(--coolshockbt3) !important;
+  }
+
+  .choices__item[data-value="Thus Spoke Kishibe Rohan"], .choices__item--selectable[data-value="Thus Spoke Kishibe Rohan"] {
+    background-color: var(--tskr) !important;
+    border: 1px solid var(--tskr3) !important;
+  }
+
+  .choices__item[data-value="Thus Spoke Kishibe Rohan"]:hover, .choices__item--selectable.is-highlighted[data-value="Thus Spoke Kishibe Rohan"] {
+    background-color: var(--tskr3) !important;
+  }
+
+  .choices__item[data-value="Miscellaneous"], .choices__item--selectable[data-value="Miscellaneous"] {
+    background-color: var(--irene) !important;
+    border: 1px solid var(--irene3) !important;
+  }
+
+  .choices__item[data-value="Miscellaneous"]:hover, .choices__item--selectable.is-highlighted[data-value="Miscellaneous"] {
+    background-color: var(--irene3) !important;
+  }
+
+  .choices__item[data-value="Manga"], .choices__item[data-value="Anime"], .choices__item[data-value="OVA"], .choices__item[data-value="Film"], .choices__item[data-value="TV Drama"], .choices__item[data-value="Video Game"], .choices__item[data-value="Novel"], .choices__item[data-value="Music"] {
+    background-color: #5b5b5b !important;
+    border: 1px solid #1c1c1c !important;
+  }
+
+  .choices__item--selectable[data-value="Manga"], .choices__item--selectable[data-value="Anime"], .choices__item--selectable[data-value="OVA"], .choices__item--selectable[data-value="Film"], .choices__item--selectable[data-value="TV Drama"], .choices__item--selectable[data-value="Video Game"], .choices__item--selectable[data-value="Novel"], .choices__item--selectable[data-value="Music"] {
+    background-color: #5b5b5b !important;
+    border: 1px solid #1c1c1c !important;
+  }
+
+  .choices__item[data-value="Manga"]:hover, .choices__item[data-value="Anime"]:hover, .choices__item[data-value="OVA"]:hover, .choices__item[data-value="Film"]:hover, .choices__item[data-value="TV Drama"]:hover, .choices__item[data-value="Video Game"]:hover, .choices__item[data-value="Novel"]:hover, .choices__item[data-value="Music"]:hover {
+    background-color: #1c1c1c !important;
+  }
+
+  .choices__item--selectable.is-highlighted[data-value="Manga"], .choices__item--selectable.is-highlighted[data-value="Anime"], .choices__item--selectable.is-highlighted[data-value="OVA"], .choices__item--selectable.is-highlighted[data-value="Film"], .choices__item--selectable.is-highlighted[data-value="TV Drama"], .choices__item--selectable.is-highlighted[data-value="Video Game"], .choices__item--selectable.is-highlighted[data-value="Novel"], .choices__item--selectable.is-highlighted[data-value="Music"] {
+    background-color: #1c1c1c !important;
+  }
